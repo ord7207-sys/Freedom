@@ -1,5 +1,5 @@
 import { Prompt  } from "next/font/google";
-import "./globals.css";
+import "../globals.css";
 import Navbar from "@/componeants/navigation";
 
 const prompt = Prompt({
@@ -20,7 +20,7 @@ export default function RootLayout({ children }) {
       className={`${prompt.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
-        <Navbar />
+     <Navbar/>
         {children}
       </body>
     </html>

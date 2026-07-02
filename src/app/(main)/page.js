@@ -8,10 +8,11 @@ import Footersection from '@/componeants/Footersection'
 export default function Home() {
   return (
     <div>
-    <Herosection />
+      <Herosection />
      <Cardsection />
      <Footersection/>
 
+    
     </div>
   )
 }
